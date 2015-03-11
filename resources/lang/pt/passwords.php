@@ -16,7 +16,7 @@ return [
 	"password" => "As Palavras-Chave devem ter seis caracteres e tem que corresponder à confirmação.",
 	"user" => "Não foi encontrado nenhum utilizador com este endereço de email.",
 	"token" => "Este código de redefinição de palavra-chave é inválido.",
-    "sent" => "Foi enviado para o seu endereço de email o link para efetuar a alteração da password.",
-    "reset" => "A sua password foi alterada."
+	"sent" => "Foi enviado para o seu endereço de email o link para efetuar a alteração da password.",
+	"reset" => "A sua password foi alterada."
 
 ];

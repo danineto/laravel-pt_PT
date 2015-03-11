@@ -3,4 +3,5 @@
 Tradução da [Laravel Framework](http://laravel.com) para Português (de Portugal).
 
 Traduzido por [Miguel Borges](http://miguelborges.com)
-  adaptado por [Daniel Pereira] 
+
+  adaptado por Daniel Pereira 

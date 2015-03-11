@@ -25,9 +25,9 @@ return [
 		"numeric" => "O :attribute deve ter entre :min - :max.",
 		"file"    => "O :attribute deve ter entre :min - :max kilobytes.",
 		"string"  => "O :attribute deve ter entre :min - :max caracteres.",
-        "array"   => "O :attribute deve ter entre :min - :max items.",
+		"array"   => "O :attribute deve ter entre :min - :max items.",
 	],
-    "boolean"              => "O :attribute deve ser verdadeiro ou falso.",
+	"boolean"              => "O :attribute deve ser verdadeiro ou falso.",
 	"confirmed"            => "O :attribute confirmação não coincide.",
 	"date"                 => "O :attribute não é uma data válida.",
 	"date_format"          => "O :attribute não corresponde ao formato :format.",
@@ -35,7 +35,7 @@ return [
 	"digits"               => "O :attribute deve ter :digits dígitos.",
 	"digits_between"       => "O :attribute deve ter entre :min e :max dígitos.",
 	"email"                => "O :attribute não é um endereço de e-mail válido.",
-    "filled"               => "O campo :attribute é obrigatório.",
+	"filled"               => "O campo :attribute é obrigatório.",
 	"exists"               => "O :attribute seleccionado é inválido.",
 	"image"                => "O :attribute deve ser uma imagem.",
 	"in"                   => "O :attribute seleccionado é inválido.",
@@ -45,14 +45,14 @@ return [
 		"numeric" => "O :attribute deve ser inferior a :max.",
 		"file"    => "O :attribute deve ter menos que :max kilobytes.",
 		"string"  => "O :attribute deve ter menos que :max caracteres.",
-        "array"   => "O :attribute deve ter menos que :max items.",
+		"array"   => "O :attribute deve ter menos que :max items.",
 	],
 	"mimes"                => "O :attribute deve ser um ficheiro do tipo: :values.",
 	"min"                  => [
 		"numeric" => "O :attribute deve ser pelo menos :min.",
 		"file"    => "O :attribute deve ter pelo menos :min kilobytes.",
 		"string"  => "O :attribute deve ter pelo menos :min caracteres.",
-        "array"   => "O :attribute deve ter pelo menos :min items.",
+		"array"   => "O :attribute deve ter pelo menos :min items.",
 	],
 	"not_in"               => "O :attribute seleccionado é inválido.",
 	"numeric"              => "O :attribute deve ser um número.",
@@ -62,17 +62,17 @@ return [
 	"required_with"        => "O campo :attribute é obrigatório quando :values está presente.",
     "required_with_all"    => "O campo :attribute é obrigatório quando todos os :values estão presentes.",
 	"required_without"     => "O campo :attribute é obrigatório quando :values não está presente.",
-    "required_without_all" => "O campo :attribute é obrigatório quando nenhum dos :values está presente.",
+	"required_without_all" => "O campo :attribute é obrigatório quando nenhum dos :values está presente.",
 	"same"                 => "O :attribute e :other devem ser iguais.",
 	"size"                 => [
 		"numeric" => "O :attribute deve ser :size.",
 		"file"    => "O :attribute deve ter :size kilobytes.",
 		"string"  => "O :attribute deve ter :size caracteres.",
-        "array"   => "O :attribute deve conter :size items."
+		"array"   => "O :attribute deve conter :size items."
 	],
 	"unique"               => "Este :attribute já existe.",
 	"url"                  => "O :attribute não é uma URL válida.",
-    "timezone"             => "O :attribute deve ser uma zona válida.",
+	"timezone"             => "O :attribute deve ser uma zona válida.",
 
 	/*
 	|--------------------------------------------------------------------------
@@ -86,10 +86,10 @@ return [
 	*/
 
 	'custom' => [
-        'attribute-name' => [
-            'rule-name' => "messagem-personalizada",
-        ]
-    ],
+		'attribute-name' => [
+			'rule-name' => "messagem-personalizada",
+		]
+	],
 
 	/*
 	|--------------------------------------------------------------------------
